@@ -7,6 +7,16 @@ slide: false
 
 # 要旨
 <!-- 宇宙農場における重力について調査し、バルーン形状の植物栽培プラントに対する人工重力の影響を主に材料力学の観点から計算した。 -->
+前回の記事 [^] で宇宙農場プラント「メタルネットバルーンプラント」（以下、MNBP）を扱ったが、
+[^]: https://github.com/reodon/2024-11-03_techbookfest-17th/blob/2024-12-30_comiket-105th/main.md
+
+nanbuwks [^] によると、デブリの影響を考慮した適切な高度は、
+[^]: GitHub URL? or, PDF URL?
+
+Low Earth Orbit（以下、LEO）に含まれる高度 1800 〜 2000 km 
+
+ISS の高度は約 400 km である。[^]
+[^]: https://humans-in-space.jaxa.jp/iss/
 
 # はじめに
 <!-- 生物は常に重力を受ける環境で進化してきた。
