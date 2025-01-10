@@ -7,18 +7,21 @@ slide: false
 
 # 要旨
 <!-- 宇宙農場における重力について調査し、バルーン形状の植物栽培プラントに対する人工重力の影響を主に材料力学の観点から計算した。 -->
-前回の記事 [^] で宇宙農場プラント「メタルネットバルーンプラント」（以下、MNBP）を扱ったが、
-[^]: https://github.com/reodon/2024-11-03_techbookfest-17th/blob/2024-12-30_comiket-105th/main.md
+前回の記事 [^] で宇宙農場プラント「メタルネットバルーンプラント」（以下、MNBP）を扱った。
+[^]: https://github.com/reodon/2024-11-03_techbookfest-17th/blob/2024-12-30_comiket-105th/main.md <!-- @todo replace PDF URL -->
 
-nanbuwks [^] によると、デブリの影響を考慮した適切な高度は、
-[^]: GitHub URL? or, PDF URL?
+MNBP について nanbuwks [^] は、デブリの影響を考慮した適切な地球表面からの高度は、Low Earth Orbit（以下、LEO）に含まれる 1800 〜 2000 km（以下、_MNBP 軌道_ <!-- @todo review naming -->）と報告している。 
+[^]: https://github.com/nanbuwks/JournalOfSpaceFarm/blob/main/journalofspacefarmvol1_2024c.md <!-- @todo replace PDF URL -->
 
-Low Earth Orbit（以下、LEO）に含まれる高度 1800 〜 2000 km 
+本記事では、_MNBP 軌道_ における MNBP への太陽光が与える影響を考察・計算した。
+MNBP の外殻の透明度をトレーシングペーパと同等だと仮定すると、... という結論に至った。
+また、排熱に関しては、 ... という方法が考えられる。
 
+
+# はじめに
 ISS の高度は約 400 km である。[^]
 [^]: https://humans-in-space.jaxa.jp/iss/
 
-# はじめに
 <!-- 生物は常に重力を受ける環境で進化してきた。
 人間も例外でなく、宇宙空間のような微小重力環境では様々な弊害が起こることが知られている。
 現状での主な対応方法は運動をすることであるが、宇宙飛行士の貴重な活動時間が犠牲になっている。
